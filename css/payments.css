@@ -22,6 +22,22 @@
   grid-column: span 2;
 }
 
+.payments .content-container .image-content .image.temple {
+  background: url(../img/pacote-viagens-templo-pagamentos-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-content .image.city {
+  background: url(../img/pacote-viagens-cidade-pagamentos-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-content .image.person {
+  background: url(../img/pacote-viagens-pessoa-pagamentos-mobile.png) no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.bag {
     background: url(../img/bag-desktop.png) no-repeat;
@@ -36,6 +52,25 @@
   .payments .content-container .image-content .image.people {
     background: url(../img/people-desktop.png) no-repeat;
     background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.temple {
+    background: url(../img/pacote-viagens-templo-pagamentos-tablet.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.city {
+    background: url(../img/pacote-viagens-cidade-pagamentos-tablet.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.person {
+    background: url(../img/pacote-viagens-pessoa-pagamentos-tablet.png)
+      no-repeat;
+    background-size: cover;
+    grid-column: span 2;
   }
 }
 
