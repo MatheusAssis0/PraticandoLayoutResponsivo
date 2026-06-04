@@ -38,6 +38,12 @@
   background-size: cover;
 }
 
+.blog .hero-img {
+  height: 460px;
+  background: url(../img/blog/blog-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 .bottom-hero .hero-img {
   background: url(../img/pacote-viagens-bottom-hero-mobile.png) no-repeat;
   background-size: cover;
@@ -47,7 +53,17 @@
   padding: 65px 24px;
 }
 
+.blog .hero-content {
+  padding: 65px 24px;
+}
+
 .travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--titles-weight);
+}
+
+.blog .hero-content h1 {
   font-size: 48px;
   color: var(--text-secondary-color);
   font-weight: var(--titles-weight);
@@ -61,7 +77,22 @@
   margin: 16px 0 32px;
 }
 
+.blog .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
 .travel-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.blog .hero-content p {
   font-size: 20px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
@@ -101,9 +132,24 @@
     padding: 120px 120px;
   }
 
+  .blog .hero-content {
+    padding: 120px 120px;
+  }
+
   .travel-packages .hero-content p {
     font-size: 32px;
     line-height: 48px;
+  }
+
+  .blog .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .blog .hero-img {
+    height: 620px;
+    background: url(../img/blog/blog-hero-tablet.png) no-repeat;
+    background-size: cover;
   }
 }
 
@@ -140,13 +186,31 @@
     margin: 0 auto;
   }
 
+  .blog .hero-content {
+    padding: 100px 120px 170px;
+    margin: 0 auto;
+  }
+
   .travel-packages .hero-content p {
     width: 540px;
+  }
+
+  .blog .hero-content p {
+    width: 540px;
+  }
+
+  .blog .hero-img {
+    background: url(../img/blog/blog-hero-desktop.png) no-repeat;
+    background-size: cover;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .travel-packages .hero-content {
+    width: 1200px;
+  }
+
+  .blog .hero-content {
     width: 1200px;
   }
 }

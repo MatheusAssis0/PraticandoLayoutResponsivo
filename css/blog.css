@@ -1,0 +1,63 @@
+.tokyo .tokyo-article h3 {
+  font-size: 28px;
+  color: var(--text-primary-color);
+  font-weight: var(--titles-weight);
+  padding: 32px 24px 0px 24px;
+  margin: 0px;
+}
+
+.tokyo .tokyo-article p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: var(--text-primary-color);
+  line-height: 32px;
+  padding: 24px 24px 32px 24px;
+}
+
+.tokyo .tokyo-article .artigo-chegada img {
+  height: 360px;
+  width: 312px;
+  padding: 0px 24px 0px 24px;
+}
+
+.tokyo .tokyo-article .artigo-acomodacao img {
+  height: 300px;
+  width: 312px;
+  padding: 0px 24px 0px 24px;
+}
+
+.tokyo .tokyo-article .artigo-acomodacao .legenda p {
+  font-size: 14px;
+  line-height: 28px;
+  padding: 0 0 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo .tokyo-article .artigo-chegada {
+    display: flex;
+    align-items: cen;
+    gap: 24px;
+  }
+
+  .tokyo .tokyo-article .artigo-chegada .artigo-chegada-conteudo {
+    flex: 1;
+  }
+
+  .tokyo .tokyo-article .artigo-chegada .artigo-chegada-conteudo h3 {
+    padding-top: 0px;
+  }
+
+  .tokyo .tokyo-article .artigo-chegada img {
+    flex: 0 0 312px;
+  }
+
+  .tokyo .tokyo-article .artigo-acomodacao img {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tokyo .tokyo-article .artigo-acomodacao img {
+    width: 1000px;
+  }
+}
