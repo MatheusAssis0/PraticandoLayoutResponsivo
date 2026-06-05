@@ -38,6 +38,10 @@
   background-size: cover;
 }
 
+.blog.hero {
+  margin-bottom: 88px;
+}
+
 .blog .hero-img {
   height: 460px;
   background: url(../img/blog/blog-hero-mobile.jpg) no-repeat;
